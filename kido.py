@@ -43,7 +43,7 @@ cap.release()
 num=0
 x = []
 list = []
-for i in range(186):
+for i in range(26):
  img = cv2.imread("picture{:0=3}".format(num)+".jpg")
  mean = np.mean(img)
  list.append(mean)
